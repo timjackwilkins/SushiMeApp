@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+	function actuallyLoggingThings(x, y, z){
+		console.log('I have parameters')
+		console.log(x);
+		alert(y);
+		document.write(z);
+	}
+
+
+
+
+
+	function thiShitIsLocal(){
+		var one = 'the thing I will console.log';
+		var two = 'the thing I will alert';
+		var three = 'the thing I will document write';
+		actuallyLoggingThings(one, two, three);
+	
+	}
+	thiShitIsLocal();
+
+	function doingNothing(food, food1, animal){
+		console.log('I have no paramemters and no idea what any of these variables are')
+		console.log(food);
+		alert(food1);
+		document.write(animal);
+	}
+
+	doingNothing("eggs", "tomoato", "goats");</script>
+</body>
+</html>
